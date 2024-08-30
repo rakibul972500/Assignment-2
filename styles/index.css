@@ -86,3 +86,110 @@ header{
   }
   
   /*Navbar style end*/
+  /*Hero section start*/
+
+.hero-section{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: -50px;
+  background: rgb(17, 17, 17)
+  rgba(119, 119, 119, 0)
+
+}
+
+.hero-content{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  row-gap: 30px;
+}
+
+.hero-content h1{
+  font-size:4.5rem ;
+  color: var(--font-color);
+  line-height:1.2em;
+  
+}
+
+.hero-content h1 span{
+  font-family:"Dancing Script", cursive;
+  font-weight:;
+  font-size: 6rem;
+  text-shadow: 10px 5px 10px var(--font-color);
+  cursor: pointer;
+  transition: 1s all;
+}
+.hero-content h1 span:hover{
+  display: inline-block;
+}
+
+.hero-content p{
+  line-height: 1.5rem;
+  opacity: 90%;
+  color: var(--font-color);
+  letter-spacing: 0.03rem;
+  font-size: 1rem;
+}
+.btn-box{
+  display: flex;
+  gap: 40px;
+}
+ button , .active{
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: 1px solid var(--orange-color);
+  background: var(--orange-color);
+  color: var(--font-color);
+  border-radius: 30px;
+  border-top: 2px solid var(--font-color);
+  border-left:2px solid var(--font-color);
+  transition: .2s ease;
+  cursor: pointer;
+}
+
+button:hover , .active:hover{
+  border-top: 0;
+  border-left:0;
+  border-bottom: 2px solid var(--font-color);
+  border-right:2px solid var(--font-color);
+}
+
+.hero-image{
+  width: 350px;
+  position: relative;
+}
+
+.hero-image img{
+  width: 100%;
+}
+
+
+.like{
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  color: var(--font-color);
+  padding: 15px;
+  width: 150px;
+  padding: 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.like h5{
+font-size: 2rem;
+}
+.btn-1{
+  position: absolute;
+  left: -35px;
+  bottom: 120px;
+}
+
+.btn-2{
+  position: absolute;
+  right: 0;
+  top: 130px;
+}
+
+/*Hero section end*/
