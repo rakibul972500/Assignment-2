@@ -64,18 +64,7 @@
   .run-img{
     width: 100%;
   }
-  
-  .train-grid{
-    flex-direction: column;
-    row-gap: 40px;
-  }
-  .row1 , .row2{
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .row1 > div, .row2 > div{
-    height: 250px;
-  }
+
   
   .bmi-calculator{
     grid-template-columns: 1fr;
@@ -117,28 +106,6 @@
     padding: 40px 2rem;
   }
   
-  .gift-hero video {
-    position: relative;
-    color: var(--font-color);
-  }
-  .gift-content{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-  }
-  .gift-content p{
-    display: none;
-  }
-  .gift-content h1{
-    font-size: 1.5rem;
-    color: var(--orange-color);
-  }
   
-  .free-item-box{
-    grid-template-columns: 1fr;
-    row-gap: 50px;
-  }
-
   
 }

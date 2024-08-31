@@ -193,3 +193,261 @@ font-size: 2rem;
 }
 
 /*Hero section end*/
+
+/*your habits section started*/
+.change-habits{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  color: var(--font-color);
+  margin-top: 50px;
+}
+
+.habit-content h1{
+  font-size: 2.5rem;
+}
+.habit-content p{
+  padding: 20px 0;
+}
+.habit-item{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+}
+
+.habit-item .item {
+  display: flex;
+  flex-direction: column;align-items: center;
+  row-gap: 15px;
+  text-align: center;
+}
+
+.habit-item .item h6{
+  font-size: 1.5rem;
+}
+.habit-item .item p{
+  
+}
+.habit-item .item img{
+  width: 200px;
+  border-radius: 50%;
+ transition: .2s ease-out;
+}
+.habit-item .item img:hover{
+ border: 5px solid var(--font-color);
+}
+
+/*your habits section ended*/
+
+/*Run extra miles section started*/
+.run-extra {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 450px 350px;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--font-color);
+  background-color: var(--sec-main);
+  padding: 40px 25px;
+  border-radius: 8px;
+}
+.run-extra .extra-content{
+text-align: left;
+}
+.run-img{
+  overflow: hidden;
+  background-position:  center;
+  border-radius: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+.run-img img{
+  width: 100%;
+  transform: scale(3) translatex(-50px) translateY(2rem);
+}
+
+.extra-content p{
+  padding: 20px 0;
+}
+/*Run extra miles section ended*/
+
+
+/*bmi-calculator ended*/
+
+.bmi-content{
+  margin: 4rem auto;
+  width: 80%;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+  color: var(--font-color);
+}
+.bmi-content h1{
+  padding-bottom: .8rem;
+}
+
+
+.bmi-calculator{
+  color: var(--font-color);
+  display: grid;
+  grid-template-columns: 400px 500px;
+  justify-content: space-between;
+  row-gap: 30px;
+  padding: 70px 8rem;
+}
+
+
+.bmi-calculator{
+  background-color: var(--sec-main);
+}
+
+.bmi-calculator h2{
+font-size: 2rem;
+}
+
+table, td, th{
+border: 1px solid var(--font-color);
+border-collapse: collapse;
+}
+
+td , input{
+  color: var(--sec-font);
+}
+
+td, th{
+  padding: 8px 15px;
+}
+.bmi-left h2{
+  margin-bottom: 40px;
+}
+.bmi-right p{
+  padding: 20px 0;
+}
+.right-input{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+input::placeholder ,select option{
+  color: var(--sec-font);
+  font-size: .9rem;
+  padding-left: 10px;
+}
+
+.input-box{
+  height: 35px;
+  width: 200px;
+  flex-grow: 1;
+  border-radius: 8px;
+  border: none;
+  background-color: #525659;
+  color: var(--font-color);
+}
+
+
+.bmi-right button{
+  margin: 20px 0;
+}
+/*bmi-calculator ended*/
+
+/*Our Team Section started*/
+.our-team{
+  color: var(--font-color);
+}
+
+.team-content p{
+  padding: 15px 0;
+}
+
+.team-photo img{
+  width: 300px;
+  height: 270px;
+  
+}
+
+.team-photo{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3 , 300px);
+  justify-content: center;
+  gap: 25px;
+  border-radius: 10px;
+  background: var(--sec-main);
+  padding: 30px 0;
+}
+
+.photo{
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+
+.trainer-details{
+  position:absolute;
+  bottom: 40px;
+  left: 40px;
+  color: var(--font-color);
+  z-index: 1;
+}
+
+/*Our Team Section ended*/
+
+/* Unique idea start */
+
+
+
+
+
+/* Unique Idea end */
+
+/*Footer Section started*/
+.footer-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--sec-main);
+  padding: 70px 3rem;
+}
+
+.logo-content p{
+  padding: 20px 0;
+}
+.box-btn a{
+  margin-right: 20px;
+}
+.box-btn a :hover{
+  color: var(--orange-color);
+  padding: 0 10px;
+}
+.box-btn i{
+  font-size: 2rem;
+  color: var(--font-color);
+}
+
+.nav-content{
+  display: flex;
+  justify-content: space-around;
+}
+.footnav h3{
+  color: var(--font-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.footnav ul li{
+  padding: 10px;
+  list-style: none;
+  font-size: 0.9rem;
+  color: var(--sec-font);
+}
+
+.copyright{
+  color: var(--font-color);
+  width: 100%;
+  text-align: center;
+}
+.copyright p{
+  margin-top: 20px;
+}
+/*Footer section ended*/
+
+
